@@ -11,6 +11,9 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', function () {
         return Inertia::render('dashboard');
     })->name('dashboard');
+     Route::get('employee_list', function () {
+        return Inertia::render('hr/employee_list');
+    })->name('employee_list');
 });
 
 require __DIR__.'/settings.php';

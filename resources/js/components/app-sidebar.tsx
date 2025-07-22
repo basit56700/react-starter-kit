@@ -13,6 +13,11 @@ const mainNavItems: NavItem[] = [
         href: '/dashboard',
         icon: LayoutGrid,
     },
+    {
+        title: 'Human Resources',
+        href: '/employee_list',
+        icon: LayoutGrid,
+    },
 ];
 
 const footerNavItems: NavItem[] = [
@@ -23,6 +28,11 @@ const footerNavItems: NavItem[] = [
     },
     {
         title: 'Documentation',
+        href: 'https://laravel.com/docs/starter-kits#react',
+        icon: BookOpen,
+    },
+     {
+        title: 'Test',
         href: 'https://laravel.com/docs/starter-kits#react',
         icon: BookOpen,
     },
