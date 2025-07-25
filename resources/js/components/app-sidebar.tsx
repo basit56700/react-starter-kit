@@ -15,7 +15,7 @@ const mainNavItems: NavItem[] = [
     },
     {
         title: 'Human Resources',
-        href: '/employee_list',
+        href: '/employee_global_list',
         icon: LayoutGrid,
     },
 ];
